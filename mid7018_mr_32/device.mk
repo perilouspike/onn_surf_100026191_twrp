@@ -6,9 +6,18 @@
 #
 
 LOCAL_PATH := device/onn/mid7018_mr_32
+
+# Screen Resolution
 TARGET_SCREEN_WIDTH := 1024
 TARGET_SCREEN_HEIGHT := 600
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3G
+
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+
+# Treble
+BOARD_VNDK_VERSION := current
+
 # fastboot/d hal
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \

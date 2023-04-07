@@ -2,6 +2,6 @@
 #ro.postinstall.fstab.prefix=/system
 ro.hardware=MT8168
 ro.vendor.mediatek.platform=MT8168
-ro.crypto.volume.filenames_mode=aes-256-cts
+#ro.crypto.volume.filenames_mode=aes-256-cts
 #ro.vendor.mtk_microtrust_tee_support=
 ro.sys.usb.storage.type=mtp
