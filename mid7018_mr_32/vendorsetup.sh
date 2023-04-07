@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_mid7018_mr_32-user
-add_lunch_combo omni_mid7018_mr_32-userdebug
+#add_lunch_combo omni_mid7018_mr_32-user
+#add_lunch_combo omni_mid7018_mr_32-userdebug
 add_lunch_combo omni_mid7018_mr_32-eng
