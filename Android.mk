@@ -5,8 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_mid7018_mr_32.mk
+LOCAL_PATH := $(call my-dir)
 
-COMMON_LUNCH_CHOICES := \
-    twrp_mid7018_mr_32-eng
+ifeq ($(TARGET_DEVICE),mid7018)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif

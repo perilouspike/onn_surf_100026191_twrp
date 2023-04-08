@@ -5,8 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := $(call my-dir)
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/omni_mid7018.mk
 
-ifeq ($(TARGET_DEVICE),mid7018_mr_32)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-endif
+COMMON_LUNCH_CHOICES := \
+    omni_mid7018-eng
