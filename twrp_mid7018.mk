@@ -7,7 +7,7 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
-#$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 #$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 #$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -19,7 +19,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/onn/mid7018/device.mk)
 
 PRODUCT_DEVICE := mid7018
-PRODUCT_NAME := omni_mid7018
+PRODUCT_NAME := twrp_mid7018
 PRODUCT_BRAND := onn
 PRODUCT_MODEL := 100026191
 PRODUCT_MANUFACTURER := onn
