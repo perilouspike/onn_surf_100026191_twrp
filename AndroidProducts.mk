@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_mid7018.mk
+    $(LOCAL_DIR)/omni_mid7018.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_mid7018-eng
+    omni_mid7018-eng

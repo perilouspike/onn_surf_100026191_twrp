@@ -19,7 +19,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/onn/mid7018/device.mk)
 
 PRODUCT_DEVICE := mid7018
-PRODUCT_NAME := twrp_mid7018
+PRODUCT_NAME := omni_mid7018
 PRODUCT_BRAND := onn
 PRODUCT_MODEL := 100026191
 PRODUCT_MANUFACTURER := onn
