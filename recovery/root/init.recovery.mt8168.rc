@@ -1,7 +1,3 @@
-on init
-    mkdir /config
-    setprop sys.usb.configfs 1
-    setprop sys.usb.controller "11201000.usb"
 
 on fs
     symlink /dev/block/platform/soc/11230000.mmc /dev/block/platform/bootdevice
